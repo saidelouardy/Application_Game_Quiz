@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#808080">
+
+    <TextView
+        android:id="@+id/textgame"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:text="the first projet"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="95dp"
+        android:textColor="@color/black"
+        android:layout_marginHorizontal="30dp"
+        android:layout_marginTop="40dp"
+        android:background="#A9A9A9"
+         />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textgame"
+        android:paddingTop="40dp"
+        >
+        <Button
+            android:id="@+id/submitone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="answr A"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_below="@+id/submitone"
+            android:id="@+id/submittow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="answr D"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            />
+        <Button
+            android:layout_below="@+id/submittow"
+            android:id="@+id/submitthree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="answr C"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_below="@+id/submitthree"
+            android:id="@+id/submitfore"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="answr D"
+            android:layout_margin="20dp"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <Button
+            android:layout_below="@+id/submitfore"
+            android:id="@+id/submit"
+            android:layout_width="130dp"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/submitfore"
+            android:text="Next ->"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+
+</RelativeLayout>
